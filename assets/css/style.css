@@ -255,3 +255,44 @@ i { margin-right: 5px; }
     }
 }
 
+/* Small Screen Devices */
+@media(max-width: 890px) {
+
+    .navbar {
+        height: 100px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .grid,
+    .showcase .grid,
+    .stats .grid,
+    .testimonial .flex,
+    .hero .grid,
+    .features-main .grid,
+    .footer .flex {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .showcase {
+        height: 750px;
+    }
+
+    .showcase .showcase-form {
+        top: 0;
+        margin-top: -30px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px 0;
+        height: 500px;
+    }
+
+}
+
