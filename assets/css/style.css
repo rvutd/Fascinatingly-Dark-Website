@@ -258,13 +258,9 @@ i { margin-right: 5px; }
 /* Small Screen Devices */
 @media(max-width: 890px) {
 
-    .navbar {
-        height: 100px;
-    }
+    .navbar { height: 110px; }
 
-    .navbar .flex {
-        flex-direction: column;
-    }
+    .navbar .flex { flex-direction: column; }
 
     .grid,
     .showcase .grid,
@@ -279,9 +275,7 @@ i { margin-right: 5px; }
         overflow: hidden;
     }
 
-    .showcase {
-        height: 750px;
-    }
+    .showcase { height: 700px; }
 
     .showcase .showcase-form {
         top: 0;
@@ -293,6 +287,64 @@ i { margin-right: 5px; }
         padding: 20px 0;
         height: 500px;
     }
+}
 
+/* Old SmartPhones */
+@media(max-width: 440px){
+
+    /* Navigation Bar */
+    .navbar .container
+    { padding: 20px 5px; }
+
+    .navbar h2 { font-size: 27px; }
+
+    /* Home Page */
+    .showcase h1{ font-size: 40px; }
+
+    .testimonial img {
+        width: 350px;
+        height: 330px;
+        margin-bottom: -50px;
+    }
+
+    /* Contact */
+    /* Showcase */
+
+    .slide {
+        margin-bottom: 100px;
+    }
+
+    .slide .container
+    {  padding: 0px 5px; }
+
+    .slide div,
+    .hero .container
+    {
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    .slide div {
+        width: 280px;
+        text-align: center;
+    }
+
+    .showcase .showcase-form {
+        position: relative;
+        top: 30px;
+        height: 380px;
+        width: 270px;
+        padding: 20px;
+        z-index: 100;
+        animation: slideInFromRight 1s ease-in;
+    }
+
+    .showcase-form .form-control { 
+        margin: 0; 
+        width: 230px;
+    }
+
+    /* Footer */
+    .footer ul li { display: flex; }
 }
 
