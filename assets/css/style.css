@@ -293,7 +293,7 @@ i {margin-right: 5px;}
 }
 
 /* Old SmartPhones */
-@media(max-width: 440px){
+@media(max-width: 550px){
 
     /* Navigation Bar */
     .navbar .container {padding: 20px 5px;}
@@ -343,6 +343,17 @@ i {margin-right: 5px;}
     }
 
     /* Footer */
-    .footer ul li {display: flex;}
+    .footer ul li, .footer{
+        display: flex;
+        text-align: center;
+    }
+
 }
 
+
+@media(max-width: 294px){
+    .showcase {height: 720px;}
+
+    /* Home Page */
+    .showcase h1{font-size: 38px;}
+}
