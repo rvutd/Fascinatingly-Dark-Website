@@ -1,4 +1,4 @@
-# Fascinatingly Dark Website (FDW) 
+# Fascinatingly Dark Website (FDW) <https://fascinatingly-dark.netlify.app/>
 
 ## Project Info
 FDW is basically Front-End Website allows user to know about the company.
