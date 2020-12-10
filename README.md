@@ -1,4 +1,4 @@
-# Fascinatingly Dark Website (FDW) <https://fascinatingly-dark.netlify.app/>
+# Fascinatingly Dark Website (FDW) 
 
 ## Project Info
 FDW is basically Front-End Website allows user to know about the company.
@@ -17,3 +17,5 @@ Project is created with:
 * Run it through web browser or throght live servers.
 * Hope you like it.
 
+## Link of this site
+<https://fascinatingly-dark.netlify.app/>
