@@ -1,7 +1,7 @@
-# Fascinatingly Dark Website (FAW) 
+# Fascinatingly Dark Website (FDW) 
 
 ## Project Info
-It is basically Front-End based Website allows user to know about the company.
+FDW is basically Front-End Website allows user to know about the company.
 User's can contact with company through a Contact Form.
 
 ## Technologies Used
@@ -17,4 +17,3 @@ Project is created with:
 * Run it through web browser or throght live servers.
 * Hope you like it.
 
-### Thanks
