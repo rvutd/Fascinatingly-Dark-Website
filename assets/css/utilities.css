@@ -12,7 +12,7 @@
     height: 100%;
 }
 
-.f-wrap { flex-wrap: wrap; }
+.f-wrap {flex-wrap: wrap;}
 
 .grid {
     display: grid;
@@ -23,9 +23,9 @@
     height: auto;
 }
 
-.grid-1 { display: grid; }
+.grid-1 {display: grid;}
 
-.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-3 {grid-template-columns: repeat(3, 1fr);}
 
 .card {
     background-color: #fff;
@@ -50,35 +50,24 @@
 .text-center { text-align: center; }
 
 /* Text Sizes */
-.sm { font-size: 1rem; }
-
-.md { font-size: 1.5rem; }
-
-.lg { font-size: 2rem; }
-
-.xl { font-size: 4rem; }
+.sm {font-size: 1rem;}
+.md {font-size: 1.5rem;}
+.lg {font-size: 2rem;}
+.xl {font-size: 4rem;}
 
 /* Text Colours */
 .text-red {
     color: #C60021;
     font-weight: 600;
 }
-
-.text-light-black { color: #666262; }
-
-.text-black { color: black; }
-
-.text-blue{ color: #00A8D0; }
+.text-light-black {color: #666262;}
+.text-black {color: black;}
+.text-blue{color: #00A8D0;}
 
 /* background colours */
-
-.bg-light-grey { background-color: var(--gray-color); }
-
-.bg-light-green { background-color: #57d8d4; }
-
-.bg-light-blue{ background-color: #00A8D0; }
-
-
+.bg-light-grey {background-color: var(--gray-color);}
+.bg-light-green {background-color: #57d8d4;}
+.bg-light-blue{background-color: #00A8D0;}
 .bg-black{
     background-color: var(--black-color);
     color: #fff;
@@ -86,37 +75,25 @@
 
 /* Margins */
 /* Along y axis */
-.my-1 { margin: 1rem 0; }
-
-.my-2 { margin: 1.5rem 0; }
-
-.my-3 { margin: 2rem 0; }
-
-.my-4 { margin: 2.5rem 0; }
+.my-1 {margin: 1rem 0;}
+.my-2 {margin: 1.5rem 0;}
+.my-3 {margin: 2rem 0;}
+.my-4 {margin: 2.5rem 0;}
 
 /* All direction */
-.m-1 { margin: 1rem; }
-
-.m-2 { margin: 1.5rem; }
-
-.m-3 { margin: 2rem; }
-
-.m-4 { margin: 2.5rem; }
+.m-1 {margin: 1rem;}
+.m-2 {margin: 1.5rem;}
+.m-3 {margin: 2rem;}
+.m-4 {margin: 2.5rem;}
 
 /* Paddings */
 .py-1 { margin: 1rem 0; }
-
 .py-2 { margin: 1.5rem 0; }
-
 .py-3 { margin: 2rem 0; }
-
 .py-4 { margin: 3.5rem 0; }
 
 /* All direction */
-.p-1 { margin: 1rem; }
-
-.p-2 { margin: 1.5rem; }
-
-.p-3 { margin: 2rem; }
-
-.p-4 { margin: 2.5rem; }
+.p-1 {margin: 1rem;}
+.p-2 {margin: 1.5rem;}
+.p-3 {margin: 2rem;}
+.p-4 {margin: 2.5rem;}
